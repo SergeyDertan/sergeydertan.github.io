@@ -6,8 +6,6 @@ permalink: /multitool/privacy/
 
 # Multitool privacy policy
 
-[English](/multitool/privacy/) · [Українська](/multitool/uk/privacy/) · [Русский](/multitool/ru/privacy/)
-
 Last updated: {{ site.privacy_effective }}
 
 Multitool is a toolbox app for Android and iOS.
