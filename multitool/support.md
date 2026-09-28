@@ -6,8 +6,6 @@ permalink: /multitool/support/
 
 # Multitool help & support
 
-[English](/multitool/support/) · [Українська](/multitool/uk/support/) · [Русский](/multitool/ru/support/)
-
 ## Contact
 
 Write to [{{ site.contact_email }}](mailto:{{ site.contact_email }}). Please include the app version (Settings → About & support the developer), your phone model and what happened. I read every message.

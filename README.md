@@ -6,13 +6,11 @@ https://sergeydertan.github.io/.
 ## Layout
 - `_config.yml`: site settings and the values every page uses (developer, the publisher on each store, contact email, privacy policy date)
 - `index.md`: list of apps
-- `multitool/privacy.md`: privacy policy, English only
-- `multitool/support.md`: help and support page
-- `multitool/uk/`, `multitool/ru/`: the support page in Ukrainian and Russian
+- `multitool/privacy.md`, `multitool/support.md`: privacy policy and help page, English only
 
 The apps link to these URLs (Settings → Privacy policy, Help & FAQ), so don't move pages:
 - `/multitool/privacy/`
-- `/multitool/support/`, `/multitool/uk/support/`, `/multitool/ru/support/`
+- `/multitool/support/`
 
 ## Before publishing a change
 - No value in `_config.yml` may still be a `[TODO: ...]`.
