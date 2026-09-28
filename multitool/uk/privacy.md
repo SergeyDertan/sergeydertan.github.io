@@ -15,7 +15,8 @@ permalink: /multitool/uk/privacy/
 Multitool — застосунок-набір інструментів для Android та iOS.
 
 - Розробник, відповідальний за ваші дані (далі «я»): {{ site.developer }}
-- Видавець у Google Play та App Store: {{ site.publisher }}
+- Видавець у Google Play: {{ site.publisher_google_play }}
+- Видавець в App Store: {{ site.publisher_app_store }}
 - Контакти: [{{ site.contact_email }}](mailto:{{ site.contact_email }})
 
 ## Коротко

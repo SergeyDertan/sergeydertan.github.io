@@ -13,7 +13,8 @@ Last updated: {{ site.privacy_effective }}
 Multitool is a toolbox app for Android and iOS.
 
 - Developer, responsible for your data ("I", "me" below): {{ site.developer }}
-- Published on Google Play and the App Store by: {{ site.publisher }}
+- Published on Google Play by: {{ site.publisher_google_play }}
+- Published on the App Store by: {{ site.publisher_app_store }}
 - Contact: [{{ site.contact_email }}](mailto:{{ site.contact_email }})
 
 ## In short
