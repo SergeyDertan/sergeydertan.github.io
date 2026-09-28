@@ -10,6 +10,8 @@ permalink: /multitool/uk/privacy/
 
 Останнє оновлення: {{ site.privacy_effective }}
 
+Це переклад. Якщо він розходиться з [англійською версією](/multitool/privacy/), діє англійська версія.
+
 Multitool — застосунок-набір інструментів для Android та iOS.
 
 - Розробник, відповідальний за ваші дані (далі «я»): {{ site.developer }}
