@@ -1,0 +1,15 @@
+# GitHub Pages site: privacy policies and support pages for my apps.
+# The values below are used on every page. Fill them in before publishing;
+# pages must not go live while any value is still in [brackets].
+title: Apps by SergeyDertan
+description: Privacy policies and support pages
+theme: jekyll-theme-primer
+
+# Multitool
+developer: "[developer name]"
+publisher: "[publisher name]"
+contact_email: "[contact email]"
+privacy_effective: "[YYYY-MM-DD]"
+
+exclude:
+  - README.md
