@@ -14,5 +14,5 @@ The apps link to these URLs (Settings → Privacy policy, Help & FAQ), so don't 
 - `/multitool/support/`, `/multitool/uk/support/`, `/multitool/ru/support/`
 
 ## Before publishing a change
-- No value in `_config.yml` may still be in `[brackets]`.
+- No value in `_config.yml` may still be a `[TODO: ...]`.
 - A privacy policy change gets a new `privacy_effective` date, and all three languages change together.
