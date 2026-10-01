@@ -10,7 +10,7 @@ developer: "[TODO: developer name]"
 publisher_google_play: "[TODO: developer name as on the Google Play listing]"
 publisher_app_store: "[TODO: seller name as on the App Store listing]"
 contact_email: "[TODO: contact email]"
-privacy_effective: "[TODO: YYYY-MM-DD, the day the policy goes live]"
+privacy_effective: "2026-10-01"
 
 exclude:
   - README.md
