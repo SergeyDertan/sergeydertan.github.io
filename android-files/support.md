@@ -42,7 +42,8 @@ Not directly. Opening a file opens a read-only copy on your Mac. To change it, s
 ### How do I see thumbnails of photos and videos?
 Choose View → as Icons (⌘2), or the view switch in the toolbar. Photos and videos in the current folder show thumbnails. To look at a file in full size, select it and press Space for Quick Look.
 
-<!-- TODO: when the gallery view ships, describe it here, for example: "Choose View → as Gallery (⌘3) to see the current folder's photos and videos as a grid, with a large viewer for the selected one." Check the menu name, the shortcut and what the viewer does against the shipping build first. As of 2026-10-05 only the menu item exists in the working tree. -->
+### Is there a gallery for photos and videos?
+Yes. Choose View → as Gallery (⌘3), or the gallery button in the toolbar. The current folder's photos and videos show as tiles, with its folders so you can move around; the slider at the bottom changes the tile size. Double-click a photo or video to see it large in the window, use ← and → to move to the previous or next one, and press Esc to go back to the tiles. A photo or video is copied from the phone before it shows, so a long video takes a moment.
 
 <!-- TODO: files over 4 GB haven't been tested on a real phone yet. Add a question about them only after they are. -->
 
