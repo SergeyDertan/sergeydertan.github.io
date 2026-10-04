@@ -48,7 +48,7 @@ Yes. Choose View → as Gallery (⌘3), or the gallery button in the toolbar. Th
 <!-- TODO: files over 4 GB haven't been tested on a real phone yet. Add a question about them only after they are. -->
 
 ### How do I change the language?
-Choose {{ site.android_files_name }} → Settings (⌘,) → Language. The app is available in English, Ukrainian, Russian, German, Spanish, French, Italian and Polish, or it can follow your Mac's language (System Default). The new language is used after the app relaunches: click Relaunch Now, or quit and open the app again.
+Choose {{ site.android_files_name }} → Settings (⌘,) → Language. The app is available in English, Chinese (Simplified and Traditional), Czech, Dutch, French, German, Greek, Hungarian, Italian, Japanese, Korean, Polish, Portuguese, Romanian, Russian, Spanish, Swedish, Turkish and Ukrainian, or it can follow your Mac's language (System Default). The new language is used after the app relaunches: click Relaunch Now, or quit and open the app again.
 
 ### Does the app need the internet or Wi-Fi?
 No. The app works over the USB cable only. It doesn't transfer files over Wi-Fi. Only the Help and Privacy Policy pages, which open in your browser, need the internet.
