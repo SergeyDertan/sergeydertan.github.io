@@ -12,5 +12,11 @@ publisher_app_store: "[TODO: seller name as on the App Store listing]"
 contact_email: "[TODO: contact email]"
 privacy_effective: "2026-10-01"
 
+# Android file transfer app for Mac (pages in android-files/)
+# Also uses developer, publisher_app_store and contact_email above.
+# The public name isn't final: change it here and every page follows.
+android_files_name: "DroidBrowse"
+android_files_privacy_effective: "2026-10-05"
+
 exclude:
   - README.md
