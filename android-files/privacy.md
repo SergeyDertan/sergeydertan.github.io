@@ -8,7 +8,7 @@ permalink: /android-files/privacy/
 
 Last updated: {{ site.android_files_privacy_effective }}
 
-{{ site.android_files_name }} is a Mac app for browsing the files on an Android phone connected with a USB cable, and for copying files between the Mac and the phone.
+{{ site.android_files_name }} is a Mac app for browsing the files on an Android phone connected with a USB cable, and for copying files between the Mac and the phone. This policy is for the version on the Mac App Store.
 
 - Developer, responsible for your data ("I", "me" below): {{ site.developer }}
 - Published on the Mac App Store by: {{ site.publisher_app_store }}
@@ -16,10 +16,10 @@ Last updated: {{ site.android_files_privacy_effective }}
 
 ## In short
 
-- The app makes no internet connections of its own. Your files go only between your Mac and your phone, over the USB cable.
-- No account, no ads, no tracking, no analytics and no crash reports.
-- I don't receive, sell or share any of your data.
-- When you write to me, I receive your message.
+- Your files go only between your Mac and your phone, over the USB cable. They are never uploaded anywhere.
+- The app connects to the internet for one thing: the Unlimited Transfers purchase. Each time it starts, it asks RevenueCat whether you have bought it and what it costs in your country.
+- No account, no ads, no tracking, no analytics and no crash reports of my own.
+- I don't receive, sell or share your files or any other data about you. When you write to me, I receive your message.
 
 ## What stays on your Mac and your phone
 
@@ -29,8 +29,10 @@ Last updated: {{ site.android_files_privacy_effective }}
 
 ### What the app saves on your Mac
 
-- **Settings**, in the app's preferences: the view you last chose (such as list or icons), the last download folder and the language you chose.
-- **Copies of phone files**: a file you preview with Quick Look, open in another app or drag out of the window is first copied from the phone into the app's cache folder (`~/Library/Caches/DroidBrowse/Files`). The cache is emptied each time the app starts, and older copies are removed once it passes about 1 GB. <!-- TODO: check this path when the app is renamed or sandboxed (a sandboxed app's cache is inside ~/Library/Containers). -->
+- **Settings**, in the app's preferences: the view you last chose (list, icons or gallery) and the gallery's tile size, the last download folder and the language you chose.
+- **Free copies and the purchase**: the date and how many files you copied that day (for the 10 free files a day), and whether Unlimited Transfers is unlocked, so that it stays unlocked when your Mac is offline.
+- **Rating**: how many copies have finished, and whether the app has already asked you to rate it (see Rating the app).
+- **Copies of phone files**: a file you preview with Quick Look, view in the gallery, open in another app or drag out of the window is first copied from the phone into the app's cache folder (`~/Library/Containers/io.github.sergeydertan.androidfiles/Data/Library/Caches/DroidBrowse/Files`). The cache is emptied each time the app starts, and older copies are removed once it passes about 1 GB.
 - **Thumbnails** are kept in memory only, and forgotten when you disconnect the phone or quit the app.
 
 All of this stays on your Mac. If you back up your Mac (for example with Time Machine), the backup may include the app's settings, like any other file on your Mac. I have no access to it.
@@ -40,6 +42,17 @@ All of this stays on your Mac. If you back up your Mac (for example with Time Ma
 ### Files you copy to your phone
 
 They go to your phone over USB, and nowhere else. If your phone backs up its files to the cloud (for example Google Photos), the files you copy to the phone may be backed up too, under that service's privacy policy and your phone's settings.
+
+### Purchases: RevenueCat
+
+- Copying up to 10 files a day is free. Unlimited Transfers is a one-time purchase made through the Mac App Store. Payment is handled entirely by Apple under its own privacy policy. I never see your name, email address or payment details.
+- RevenueCat checks the purchase, unlocks Unlimited Transfers and restores it on another Mac. Each time the app starts, and when you buy or restore, the app connects to RevenueCat. RevenueCat receives your purchase history for this app (the store receipt), a random app user ID created for this installation, your country and currency, and technical data: the Mac model, the macOS and app versions, and your IP address. It doesn't receive your files, file names or anything about your phone.
+- Legal basis: performing the purchase contract (Art. 6(1)(b) GDPR).
+- Kept until you ask me to delete it (see Your rights). See [RevenueCat's privacy policy](https://www.revenuecat.com/privacy).
+
+### Rating the app
+
+After a few copies have finished without errors, the app may ask macOS once to show the App Store's rating dialog. What you write there goes to Apple under its privacy policy; the app doesn't see it.
 
 ### Help and privacy pages
 
@@ -55,14 +68,16 @@ You get the app and its updates from the Mac App Store, under [Apple's privacy p
 - Legal basis: my legitimate interest in answering and improving the app (Art. 6(1)(f) GDPR).
 - Kept until the matter is dealt with, and no longer than two years.
 
-<!-- TODO: In-app purchases are planned (a free allowance of transfers, then a one-time Lifetime Unlock, possibly through RevenueCat; see MONETIZATION.md in the app's repo) but not implemented. When they ship, add a "Purchases" section modeled on Multitool's "Pro purchases: RevenueCat": payment is handled entirely by Apple; what RevenueCat receives (purchase history for this app / the store receipt, a random app user ID, country and currency, technical data such as the Mac model, macOS and app version, and the IP address); legal basis Art. 6(1)(b) GDPR; how long it is kept; a link to https://www.revenuecat.com/privacy. Also: say the app then connects to the internet for purchases (update "In short" and "What the app doesn't do"), add the free-transfer counter to "What the app saves on your Mac", add a "Transfers outside your country" section (RevenueCat in the US, Standard Contractual Clauses), and in "Your rights" explain deleting the RevenueCat record with the order number from the App Store receipt. Update the support page's FAQ and android_files_privacy_effective too. -->
-
 ## What the app doesn't do
 
-- No internet connections of its own: no analytics, crash reporting, advertising IDs, fingerprinting or tracking.
+- No internet connections except for the purchase (above): no analytics, crash reporting of my own, advertising IDs, fingerprinting or tracking.
 - No account, and no collection of your name, contacts or location.
 - No selling or sharing of data with anyone.
 - No automated decisions about you.
+
+## Transfers outside your country
+
+RevenueCat may process data in the United States and other countries, under data processing terms that include the EU Standard Contractual Clauses. Data is encrypted in transit.
 
 ## Children
 
@@ -72,7 +87,7 @@ The app is not directed at children and doesn't collect personal data from anyon
 
 Under the GDPR and similar laws, you have the right to access, correct and delete your personal data, to restrict its processing, to object to it, and to receive it in a portable form. You also have the right to complain to your data protection authority.
 
-The app sends me nothing, so the only data about you I can hold is email you send me. To have it deleted, or to ask anything else about it, write to me and tell me roughly when you wrote.
+The app holds no data that identifies you directly, so for most requests there is nothing to find. For the purchase, write to me with the order number from your App Store receipt, and I will have the RevenueCat record deleted. This doesn't take Unlimited Transfers away: the App Store still knows you bought it, and Restore Purchases brings it back. For email you sent me, tell me roughly when you wrote.
 
 ## Changes
 

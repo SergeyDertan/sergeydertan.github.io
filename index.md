@@ -17,3 +17,4 @@ A Mac app for browsing an Android phone's files and copying files both ways over
 
 - [Help & support](/android-files/support/)
 - [Privacy policy](/android-files/privacy/)
+- [Android phone not showing up on your Mac?](/android-files/android-file-transfer-not-working/)
