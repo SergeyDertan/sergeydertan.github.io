@@ -65,6 +65,7 @@ You get the app and its updates from the Mac App Store, under [Apple's privacy p
 ### Messages you send me
 
 - **Email**: if you write to the address above, I receive your email address and message.
+- **Diagnostics report**: Help → Send Diagnostics saves a text file to your Downloads folder and can open a new email with it attached. The app sends nothing itself; I receive the report only if you send that email. It contains the app and macOS versions, your Mac's model, your phone's name and model, the USB connection speed, and the app's recent log, which can include the names of files and folders you opened or copied. Read or edit it before sending if you like.
 - Legal basis: my legitimate interest in answering and improving the app (Art. 6(1)(f) GDPR).
 - Kept until the matter is dealt with, and no longer than two years.
 

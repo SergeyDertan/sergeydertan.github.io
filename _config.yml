@@ -6,9 +6,9 @@ description: Privacy policies and support pages
 theme: jekyll-theme-primer
 
 # Multitool
-developer: "[TODO: developer name]"
+developer: "Serhii Bakhariev"
 publisher_google_play: "[TODO: developer name as on the Google Play listing]"
-publisher_app_store: "[TODO: seller name as on the App Store listing]"
+publisher_app_store: "Sergii Bilak"
 contact_email: "[TODO: contact email]"
 privacy_effective: "2026-10-01"
 
@@ -16,7 +16,7 @@ privacy_effective: "2026-10-01"
 # Also uses developer, publisher_app_store and contact_email above.
 # The public name (PhonePorter): change it here and every page follows.
 android_files_name: "PhonePorter"
-android_files_privacy_effective: "2026-10-05"
+android_files_privacy_effective: "2026-10-21"
 
 exclude:
   - README.md
