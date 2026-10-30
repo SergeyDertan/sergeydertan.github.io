@@ -19,7 +19,7 @@ Multitool is a toolbox app for Android and iOS.
 - No account, no ads, no tracking, and I don't collect usage analytics.
 - What you measure, scan, type and photograph is processed on your phone and isn't sent to me, unless you send it to me yourself as feedback.
 - A few service providers receive technical data: for crash reports (you can turn them off), for Pro purchases, and on Android for reading barcodes.
-- When you send me feedback, I receive your message.
+- When you email me feedback, I receive your email address and message.
 - I don't sell or share your data.
 
 ## What stays on your phone
@@ -75,14 +75,14 @@ Each provider processes this data under its data processing terms, which protect
 
 ### Messages you send me
 
-- **Send feedback and Suggest a tool** send me your message together with where you wrote it, the star rating if you came from the rating prompt, and the app version and platform. Please don't include personal details you don't want me to have. <!-- TODO: name the feedback service and where messages are stored once the feedback package is integrated. -->
-- **Email**: if you write to the address above, I receive your email address and message.
+- **Send feedback and Suggest a tool** open an email to me in your own mail app. The subject says where you started it; below your message the app adds the app version, system version, app language and, if you came from the rating prompt, your star rating. You can change or delete any of it, and nothing is sent until you send the email yourself. I receive your email address and what you write. Please don't include personal details you don't want me to have.
+- **Email**: the same applies if you write to the address above directly.
 - Legal basis: my legitimate interest in answering and improving the app (Art. 6(1)(f) GDPR), or performing the purchase contract for purchase questions (Art. 6(1)(b)).
 - Kept until the matter is dealt with, and no longer than two years.
 
 ### Rating the app
 
-When you rate the app with 4 or 5 stars, the app opens Google Play's or the App Store's own rating dialog. What you write there goes to the store under its privacy policy; the app doesn't see it. With 1 to 3 stars, the app opens the feedback page instead, and nothing is sent until you tap Send.
+When you rate the app with 4 or 5 stars, the app opens Google Play's or the App Store's own rating dialog. What you write there goes to the store under its privacy policy; the app doesn't see it. With 1 to 3 stars, the app offers to write me an email instead (see above); nothing is sent unless you send it from your mail app.
 
 ### Network tools, only when you use them
 

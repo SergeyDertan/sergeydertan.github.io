@@ -8,7 +8,7 @@ permalink: /multitool/support/
 
 ## Contact
 
-In the app, tap Settings → Send feedback: the app version is added for you. Or write to [{{ site.contact_email }}](mailto:{{ site.contact_email }}), and please include the app version (Settings → About & support the developer), your phone model and what happened. I read every message.
+In the app, tap Settings → Send feedback: it opens an email to me with the app version already added. Or write to [{{ site.contact_email }}](mailto:{{ site.contact_email }}), and please include the app version (Settings → About & support the developer), your phone model and what happened. I read every message.
 
 ## Questions
 
